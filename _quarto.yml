@@ -1,0 +1,20 @@
+project:
+  type: book
+format:
+  pdf:
+    css: style.css
+    pdf-engine: pagedjs-cli
+    toc-title: "In this report"
+    number-sections: false
+book:
+  title: "My great report"
+  # cover-image: cover.png
+  author:
+    - "@jimjamslam"
+    - Quarto team
+  date: 18 March 2023
+  chapters:
+    - index.qmd
+    - chapter1.qmd
+    - chapter2.qmd
+    - chapter3.qmd
